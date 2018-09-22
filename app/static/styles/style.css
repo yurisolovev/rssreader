@@ -1,0 +1,27 @@
+a:hover, a:focus {
+    text-decoration: none;
+}
+
+#summary {
+    margin-top: 10px;
+    display: inline-block;
+    text-align: justify
+}
+
+#published {
+    font-style: italic;
+    color: #adadad;
+    float: right;
+}
+
+.pagination {
+    float: right !important;
+}
+
+@media all and (transform-3d), (-webkit-transform-3d) {
+    .carousel-caption {
+        bottom: 0px;
+        top: 20px;
+        padding-top: 0px;
+    }
+}
